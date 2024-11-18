@@ -1,0 +1,5 @@
+name: 'Notify new release to Asfaload'
+description: 'Notify Asfaload of a new release to include its checksums in its mirror'
+runs:
+  using: 'node20'
+  main: 'index.js'
